@@ -13,6 +13,10 @@ html{
     background-color: rgb(182, 117, 117);
     display: flex;
     justify-content: space-between;
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 9999;
 }
 
 /* Navigation list styling */
