@@ -1,0 +1,233 @@
+*{
+    font-family: fantasy;
+}
+
+html{
+    width: 100%;
+}
+
+/* main navigation bar styling */
+.Navigation{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(182, 117, 117);
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Navigation list styling */
+.nav, ul,li{
+    display: inline-block;
+    list-style: none;
+}
+
+/* list links styling */
+.nav, ul, li, a{
+    height: 100%;
+    text-decoration: none;
+    font-size: 24px;
+    padding-right: 70px;
+    padding-top: 10px;
+    font-weight: 800;
+
+}
+
+
+/* styling individual list items */
+.nav, ul, li,.Home{
+    color: yellow;
+}
+.nav, ul, li,.FoodandDrinks{
+    color: blue;
+}
+.nav, ul, li,.Branches{
+    color: black;
+}
+.nav, ul, li,.Contact_us{
+    color:white;
+}
+
+
+/* logo image styling */
+.Navigation img{
+    padding-top: 2px;
+    padding-left: 50px;
+}
+a:hover{
+    color: rgb(0, 255, 42);
+}
+
+/* styling main div */
+.Main{
+    background-color: #D1B0B0;
+    height: 100%;
+    margin-top: -32px;
+    padding-bottom: 1%;
+}
+
+.Main h1{
+    font-family: 'Monoton', cursive;
+    color: blue;
+    font-weight: 500;
+    padding-left: 20px;
+    padding-top: 15px;
+    animation: blinking 5s infinite;
+}
+@keyframes blinking{
+    0%{color: chartreuse;}
+    25%{color: chocolate;}
+    50%{color: darkgreen;}
+    75%{color: red;}
+}
+
+.Main, .Mainp{
+    padding-left: 20px;
+    font-size: 24px;
+}
+
+hr{
+    width: 500px;
+    border: 3px solid yellow;
+    box-shadow: yellowgreen;
+    margin-left: 20px;
+}
+
+/* styling top class */
+.Top{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.One{
+    width: 32%;
+    border: 1px;
+    background-color: #E2DADA;
+}
+.One img{
+    width: 94%;
+    padding-left: 20px;
+    padding-top: 15px;
+}
+.One h5 ,.OneP{
+    width: 94%;
+    padding-left: 20px;
+    padding-top: 15px;
+}
+
+
+.Two{
+    width: 32%;
+    border: 1px;
+    background-color: #E2DADA;
+}
+.Two img{
+    width: 94%;
+    padding-left: 20px;
+    padding-top: 15px;
+}
+.Two h5 ,.OneP{
+    width: 94%;
+    padding-left: 20px;
+    padding-top: 15px;
+}
+
+.Three{
+    width: 32%;
+    border: 1px;
+    background-color: #E2DADA;
+}
+.Three img{
+    width: 94%;
+    padding-left: 20px;
+    padding-top: 15px;
+}
+.Three h5 ,.OneP{
+    width: 94%;
+    padding-left: 20px;
+    padding-top: 15px;
+}
+
+/* Bottom div styling */
+
+.Bottom{
+    padding-top: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.OneB{
+    width: 32%;
+    border: 1px;
+    background-color: #E2DADA;
+}
+.OneB img{
+    width: 94%;
+    padding-left: 20px;
+    padding-top: 15px;
+}
+.OneB h5 ,.OneP{
+    width: 94%;
+    padding-left: 20px;
+    padding-top: 15px;
+}
+
+
+.TwoB{
+    width: 32%;
+    border: 1px;
+    background-color: #E2DADA;
+}
+.TwoB img{
+    width: 94%;
+    padding-left: 20px;
+    padding-top: 15px;
+}
+.TwoB h5 ,.OneP{
+    width: 94%;
+    padding-left: 20px;
+    padding-top: 15px;
+}
+
+.ThreeB{
+    width: 32%;
+    border: 1px;
+    background-color: #E2DADA;
+}
+.ThreeB img{
+    width: 94%;
+    padding-left: 20px;
+    padding-top: 15px;
+}
+.ThreeB h5 ,.OneP{
+    width: 94%;
+    padding-left: 20px;
+    padding-top: 15px;
+}
+
+/* styling footer */
+footer{
+    height: 100%;
+    background-color: #996464;
+    padding-left: 150px;
+}
+.Footer{
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.Contact_Us{
+    height: 100%;
+    width: 32%;
+}
+.Branches{
+    height: 100%;
+    width: 32%;
+}
+.Promotions{
+    height: 100%;
+    width: 32%;
+}
+.FooterP{
+    text-align: center;
+    color: rgb(255, 255, 255);
+} 
